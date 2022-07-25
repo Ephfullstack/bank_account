@@ -1,6 +1,6 @@
 # Bank Application  
 
-This is a Makers Mock Bank applciation created to mimic a bank statement 
+This is a Makers Mock Bank applciation created to mimic a bank ATM
 
 ### Requirements
 
