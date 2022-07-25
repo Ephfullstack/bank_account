@@ -8,6 +8,8 @@ class BankAcc {
   bankStatement() {
     return this.history;
 }
+
+
 }
 
 module.exports = BankAcc; 
