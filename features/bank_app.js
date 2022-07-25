@@ -7,8 +7,18 @@ class BankAcc {
     
   bankStatement() {
     return this.history;
-}
+  }
 
+
+  deposit(amount) {
+        this.balance += amount;
+        this.history.push({
+            date: new Date(Date.now()),
+            credit: null, 
+            debit: amount,
+            balance: this.balance,
+        });
+    }
 
 }
 
