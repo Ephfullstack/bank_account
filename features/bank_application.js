@@ -1,3 +1,0 @@
-class Bankccount {
-    constructor(self)
-}
