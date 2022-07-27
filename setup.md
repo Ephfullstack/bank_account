@@ -30,6 +30,7 @@
 
 ## Planning
 
+Create a program which stock piles transactions and is expressed once the user requests to view the bank statement.
 # MVP 
 
 1) Make it possible to view an empty transction history
@@ -41,3 +42,11 @@
 # Extra functions
 6) Implements a function which implements errors in case an account goes into debt/overdraw
 8) implement extra functionality and formating 
+
+## Code Structure
+
+this function will be carried out with the use of classes and creating objects of the classes in order to mimic a new bank account.
+
+## Extra questions in which i may have for the employer 
+
+- what currency would you like for this programme to be expressed in?
