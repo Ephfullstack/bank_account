@@ -30,3 +30,14 @@
 
 ## Planning
 
+# MVP 
+
+1) Make it possible to view an empty transction history
+2) Make it possible to view a transaction with a deposit expressing balance 
+3) make it possible to view a transction with a credit withdrawl expressing balance
+4)implement a function which expressses the date a transaction was configured 
+5)implement a function which expresses the current date of a transaction
+
+# Extra functions
+6) Implements a function which implements errors in case an account goes into debt/overdraw
+8) implement extra functionality and formating 
