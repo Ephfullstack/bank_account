@@ -24,8 +24,8 @@ class BankAcc {
         this.balance -= amount;
         this.history.push({
             date: new Date(Date.now()),
-            credit: null,
-            debit: amount,
+            credit: amount,
+            debit: null,
             balance: this.balance,
 
         });
