@@ -25,6 +25,14 @@ date || credit || debit || balance
 ```
 ## Setting up the Application
 
+To the test the Programme Jest was used. in order to set up jest do the following..
+
+````console
+npm install jest --global
+jest
+jest --coverage
+````
+
 
 ## Running the Program
 
@@ -45,7 +53,9 @@ console.log(account.bankStatement())
 
 # Phase 1
 
-Set up a bank account class which can be used as a template for a bank account object. this object can hold the functionality of being able to withdraw(credit) and deposit(debit) while expressing the date of the transaction and the total balance.
+Set up a bank account class which can be used as a template for a bank account object. this object can hold the functionality of being able to withdraw(credit) and deposit(debit) while expressing the date of the transaction and the total balance. 
+
+This seemed like the most profficent way of creating this programm. 
 
 
 
