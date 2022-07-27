@@ -34,3 +34,11 @@ class BankAcc {
 }
 
 module.exports = BankAcc; 
+
+
+const account = new BankAcc();
+const date = new Date(Date.now());
+account.deposit(500);
+account.withdraw(100);
+account.withdraw(100);
+console.log(account.bankStatement())
