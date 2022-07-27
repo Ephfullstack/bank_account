@@ -27,3 +27,6 @@
 - [ ]  as a user i want to be able to see my bank account balance.
 - [ ]  as a user so that i can use my bank account i want to make deposits and view my deposits
 - [ ]  as a user so that i can use a bank account i want to be able to see the date of a deposit.
+
+## Planning
+

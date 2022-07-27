@@ -20,6 +20,17 @@ class BankAcc {
         });
     }
 
+    withdraw(amount) {
+        this.balance -= amount;
+        this.history.push({
+            date: new Date(Date.now()),
+            credit: null,
+            debit: amount,
+            balance: this.balance,
+
+        });
+    }
+
 }
 
 module.exports = BankAcc; 
