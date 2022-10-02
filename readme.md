@@ -41,12 +41,14 @@ This Program runs within the REPL(NODE).
 ````node
 node 
 const BankAcc = require('../features/bank_app');
+const DisplayBankStatement = require('./displayBankStatement');
 const account = new BankAcc();
 const date = new Date(Date.now());
+const statement = new displayBankStatement(BankAcc);
 account.deposit(500);
 account.withdraw(100);
 account.withdraw(100);
-console.log(account.bankStatement())
+statement.print();
 ````
 
 ## Planning/Road Map
@@ -55,18 +57,15 @@ console.log(account.bankStatement())
 
 Set up a bank account class which can be used as a template for a bank account object. this object can hold the functionality of being able to withdraw(credit) and deposit(debit) while expressing the date of the transaction and the total balance. 
 
-This seemed like the most profficent way of creating this programm. 
-
-
-
+In order to format the bank account class to express the desired output i created a second class called 
 
 # phase 2
 
-extra functionality such as currency depending on whaat country the bank application is ran at as well as an overdraft system depending if the user has that option. Formating of the orignal function to express the program within a table view as expressed within the Acceptance Criteri.
+extra functionality such as currency depending on what country the bank application is ran at as well as an overdraft system depending if the user has that option. Formatting of the original function to express the program within a table view as expressed within the Acceptance Criteria.
 
 # phase 3
 
-A fullstack web application with the implemntation of HTMl and CSS, where the program can be run from a server.
+A fullstack web application with the implementation of HTMl and CSS, where the program can be run from a server.
 
 
 
@@ -74,7 +73,7 @@ A fullstack web application with the implemntation of HTMl and CSS, where the pr
 
 - what currency would you like for this programme to be expressed in?
 
-once this is understood i could implement a function which once added the user could add there country and it will represent the blaance in the countrys currency.
+once this is understood i could implement a function which once added the user could add there country and it will represent the balance in the country currency.
 
 - what happens when the user is in overdraft?
 
