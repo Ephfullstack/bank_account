@@ -1,10 +1,10 @@
 {
   "name": "bank_application",
   "version": "1.0.0",
-  "description": "This is a Makers Mock Bank applciation created to mimic a bank statement",
+  "description": "This is a Makers Mock Bank application created to mimic a bank statement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,6 @@
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ephfullstack/bank_account.git"
